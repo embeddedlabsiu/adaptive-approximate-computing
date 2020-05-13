@@ -1,0 +1,374 @@
+
+---------- Begin Simulation Statistics ----------
+sim_seconds                                  0.002433                       # Number of seconds simulated
+sim_ticks                                  2433079500                       # Number of ticks simulated
+final_tick                                 2433079500                       # Number of ticks from beginning of simulation (restored from checkpoints and never reset)
+sim_freq                                 1000000000000                       # Frequency of simulated ticks
+host_inst_rate                                 250139                       # Simulator instruction rate (inst/s)
+host_op_rate                                   335463                       # Simulator op (including micro ops) rate (op/s)
+host_tick_rate                               84566016                       # Simulator tick rate (ticks/s)
+host_mem_usage                                8517932                       # Number of bytes of host memory used
+host_seconds                                    28.77                       # Real time elapsed on the host
+sim_insts                                     7196843                       # Number of instructions simulated
+sim_ops                                       9651728                       # Number of ops (including micro ops) simulated
+system.mem_ctrls.bytes_read::cpu0.inst       14756252                       # Number of bytes read from this memory
+system.mem_ctrls.bytes_read::cpu0.data        3623691                       # Number of bytes read from this memory
+system.mem_ctrls.bytes_read::cpu1.inst       14160908                       # Number of bytes read from this memory
+system.mem_ctrls.bytes_read::cpu1.data        3136157                       # Number of bytes read from this memory
+system.mem_ctrls.bytes_read::total           35677008                       # Number of bytes read from this memory
+system.mem_ctrls.bytes_inst_read::cpu0.inst     14756252                       # Number of instructions bytes read from this memory
+system.mem_ctrls.bytes_inst_read::cpu1.inst     14160908                       # Number of instructions bytes read from this memory
+system.mem_ctrls.bytes_inst_read::total      28917160                       # Number of instructions bytes read from this memory
+system.mem_ctrls.bytes_written::cpu0.data      2710012                       # Number of bytes written to this memory
+system.mem_ctrls.bytes_written::cpu1.data      2440068                       # Number of bytes written to this memory
+system.mem_ctrls.bytes_written::total         5150080                       # Number of bytes written to this memory
+system.mem_ctrls.num_reads::cpu0.inst         3689063                       # Number of read requests responded to by this memory
+system.mem_ctrls.num_reads::cpu0.data          976669                       # Number of read requests responded to by this memory
+system.mem_ctrls.num_reads::cpu1.inst         3540227                       # Number of read requests responded to by this memory
+system.mem_ctrls.num_reads::cpu1.data          784040                       # Number of read requests responded to by this memory
+system.mem_ctrls.num_reads::total             8989999                       # Number of read requests responded to by this memory
+system.mem_ctrls.num_writes::cpu0.data         698295                       # Number of write requests responded to by this memory
+system.mem_ctrls.num_writes::cpu1.data         610017                       # Number of write requests responded to by this memory
+system.mem_ctrls.num_writes::total            1308312                       # Number of write requests responded to by this memory
+system.mem_ctrls.bw_read::cpu0.inst        6064845805                       # Total read bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_read::cpu0.data        1489343443                       # Total read bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_read::cpu1.inst        5820158363                       # Total read bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_read::cpu1.data        1288966102                       # Total read bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_read::total           14663313714                       # Total read bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_inst_read::cpu0.inst   6064845805                       # Instruction read bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_inst_read::cpu1.inst   5820158363                       # Instruction read bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_inst_read::total      11885004169                       # Instruction read bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_write::cpu0.data       1113819750                       # Write bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_write::cpu1.data       1002872286                       # Write bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_write::total           2116692036                       # Write bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_total::cpu0.inst       6064845805                       # Total bandwidth to/from this memory (bytes/s)
+system.mem_ctrls.bw_total::cpu0.data       2603163193                       # Total bandwidth to/from this memory (bytes/s)
+system.mem_ctrls.bw_total::cpu1.inst       5820158363                       # Total bandwidth to/from this memory (bytes/s)
+system.mem_ctrls.bw_total::cpu1.data       2291838388                       # Total bandwidth to/from this memory (bytes/s)
+system.mem_ctrls.bw_total::total          16780005750                       # Total bandwidth to/from this memory (bytes/s)
+system.membus.throughput                  16780007394                       # Throughput (bytes/s)
+system.membus.data_through_bus               40827092                       # Total data (bytes)
+system.membus.snoop_data_through_bus                0                       # Total snoop data (bytes)
+system.cpu0.dtb.inst_hits                           0                       # ITB inst hits
+system.cpu0.dtb.inst_misses                         0                       # ITB inst misses
+system.cpu0.dtb.read_hits                           0                       # DTB read hits
+system.cpu0.dtb.read_misses                         0                       # DTB read misses
+system.cpu0.dtb.write_hits                          0                       # DTB write hits
+system.cpu0.dtb.write_misses                        0                       # DTB write misses
+system.cpu0.dtb.flush_tlb                           0                       # Number of times complete TLB was flushed
+system.cpu0.dtb.flush_tlb_mva                       0                       # Number of times TLB was flushed by MVA
+system.cpu0.dtb.flush_tlb_mva_asid                  0                       # Number of times TLB was flushed by MVA & ASID
+system.cpu0.dtb.flush_tlb_asid                      0                       # Number of times TLB was flushed by ASID
+system.cpu0.dtb.flush_entries                       0                       # Number of entries that have been flushed from TLB
+system.cpu0.dtb.align_faults                        0                       # Number of TLB faults due to alignment restrictions
+system.cpu0.dtb.prefetch_faults                     0                       # Number of TLB faults due to prefetch
+system.cpu0.dtb.domain_faults                       0                       # Number of TLB faults due to domain restrictions
+system.cpu0.dtb.perms_faults                        0                       # Number of TLB faults due to permissions restrictions
+system.cpu0.dtb.read_accesses                       0                       # DTB read accesses
+system.cpu0.dtb.write_accesses                      0                       # DTB write accesses
+system.cpu0.dtb.inst_accesses                       0                       # ITB inst accesses
+system.cpu0.dtb.hits                                0                       # DTB hits
+system.cpu0.dtb.misses                              0                       # DTB misses
+system.cpu0.dtb.accesses                            0                       # DTB accesses
+system.cpu0.itb.inst_hits                           0                       # ITB inst hits
+system.cpu0.itb.inst_misses                         0                       # ITB inst misses
+system.cpu0.itb.read_hits                           0                       # DTB read hits
+system.cpu0.itb.read_misses                         0                       # DTB read misses
+system.cpu0.itb.write_hits                          0                       # DTB write hits
+system.cpu0.itb.write_misses                        0                       # DTB write misses
+system.cpu0.itb.flush_tlb                           0                       # Number of times complete TLB was flushed
+system.cpu0.itb.flush_tlb_mva                       0                       # Number of times TLB was flushed by MVA
+system.cpu0.itb.flush_tlb_mva_asid                  0                       # Number of times TLB was flushed by MVA & ASID
+system.cpu0.itb.flush_tlb_asid                      0                       # Number of times TLB was flushed by ASID
+system.cpu0.itb.flush_entries                       0                       # Number of entries that have been flushed from TLB
+system.cpu0.itb.align_faults                        0                       # Number of TLB faults due to alignment restrictions
+system.cpu0.itb.prefetch_faults                     0                       # Number of TLB faults due to prefetch
+system.cpu0.itb.domain_faults                       0                       # Number of TLB faults due to domain restrictions
+system.cpu0.itb.perms_faults                        0                       # Number of TLB faults due to permissions restrictions
+system.cpu0.itb.read_accesses                       0                       # DTB read accesses
+system.cpu0.itb.write_accesses                      0                       # DTB write accesses
+system.cpu0.itb.inst_accesses                       0                       # ITB inst accesses
+system.cpu0.itb.hits                                0                       # DTB hits
+system.cpu0.itb.misses                              0                       # DTB misses
+system.cpu0.itb.accesses                            0                       # DTB accesses
+system.cpu0.workload.num_syscalls               32447                       # Number of system calls
+system.cpu0.numCycles                         4866160                       # number of cpu cycles simulated
+system.cpu0.numWorkItemsStarted                     0                       # number of work items this cpu started
+system.cpu0.numWorkItemsCompleted                   0                       # number of work items this cpu completed
+system.cpu0.committedInsts                    3685882                       # Number of instructions committed
+system.cpu0.committedOps                      4862979                       # Number of ops (including micro ops) committed
+system.cpu0.num_int_alu_accesses              4297514                       # Number of integer alu accesses
+system.cpu0.num_fp_alu_accesses                  8019                       # Number of float alu accesses
+system.cpu0.num_func_calls                     209098                       # number of times a function call or return occured
+system.cpu0.num_conditional_control_insts       587564                       # number of instructions that are conditional controls
+system.cpu0.num_int_insts                     4297514                       # number of integer instructions
+system.cpu0.num_fp_insts                         8019                       # number of float instructions
+system.cpu0.num_int_register_reads           21602320                       # number of times the integer registers were read
+system.cpu0.num_int_register_writes           4493836                       # number of times the integer registers were written
+system.cpu0.num_fp_register_reads               33419                       # number of times the floating registers were read
+system.cpu0.num_fp_register_writes              21316                       # number of times the floating registers were written
+system.cpu0.num_mem_refs                      1824737                       # number of memory refs
+system.cpu0.num_load_insts                    1087631                       # Number of load instructions
+system.cpu0.num_store_insts                    737106                       # Number of store instructions
+system.cpu0.num_idle_cycles                         0                       # Number of idle cycles
+system.cpu0.num_busy_cycles                   4866160                       # Number of busy cycles
+system.cpu0.not_idle_fraction                       1                       # Percentage of non-idle cycles
+system.cpu0.idle_fraction                           0                       # Percentage of idle cycles
+system.cpu1.dtb.inst_hits                           0                       # ITB inst hits
+system.cpu1.dtb.inst_misses                         0                       # ITB inst misses
+system.cpu1.dtb.read_hits                           0                       # DTB read hits
+system.cpu1.dtb.read_misses                         0                       # DTB read misses
+system.cpu1.dtb.write_hits                          0                       # DTB write hits
+system.cpu1.dtb.write_misses                        0                       # DTB write misses
+system.cpu1.dtb.flush_tlb                           0                       # Number of times complete TLB was flushed
+system.cpu1.dtb.flush_tlb_mva                       0                       # Number of times TLB was flushed by MVA
+system.cpu1.dtb.flush_tlb_mva_asid                  0                       # Number of times TLB was flushed by MVA & ASID
+system.cpu1.dtb.flush_tlb_asid                      0                       # Number of times TLB was flushed by ASID
+system.cpu1.dtb.flush_entries                       0                       # Number of entries that have been flushed from TLB
+system.cpu1.dtb.align_faults                        0                       # Number of TLB faults due to alignment restrictions
+system.cpu1.dtb.prefetch_faults                     0                       # Number of TLB faults due to prefetch
+system.cpu1.dtb.domain_faults                       0                       # Number of TLB faults due to domain restrictions
+system.cpu1.dtb.perms_faults                        0                       # Number of TLB faults due to permissions restrictions
+system.cpu1.dtb.read_accesses                       0                       # DTB read accesses
+system.cpu1.dtb.write_accesses                      0                       # DTB write accesses
+system.cpu1.dtb.inst_accesses                       0                       # ITB inst accesses
+system.cpu1.dtb.hits                                0                       # DTB hits
+system.cpu1.dtb.misses                              0                       # DTB misses
+system.cpu1.dtb.accesses                            0                       # DTB accesses
+system.cpu1.itb.inst_hits                           0                       # ITB inst hits
+system.cpu1.itb.inst_misses                         0                       # ITB inst misses
+system.cpu1.itb.read_hits                           0                       # DTB read hits
+system.cpu1.itb.read_misses                         0                       # DTB read misses
+system.cpu1.itb.write_hits                          0                       # DTB write hits
+system.cpu1.itb.write_misses                        0                       # DTB write misses
+system.cpu1.itb.flush_tlb                           0                       # Number of times complete TLB was flushed
+system.cpu1.itb.flush_tlb_mva                       0                       # Number of times TLB was flushed by MVA
+system.cpu1.itb.flush_tlb_mva_asid                  0                       # Number of times TLB was flushed by MVA & ASID
+system.cpu1.itb.flush_tlb_asid                      0                       # Number of times TLB was flushed by ASID
+system.cpu1.itb.flush_entries                       0                       # Number of entries that have been flushed from TLB
+system.cpu1.itb.align_faults                        0                       # Number of TLB faults due to alignment restrictions
+system.cpu1.itb.prefetch_faults                     0                       # Number of TLB faults due to prefetch
+system.cpu1.itb.domain_faults                       0                       # Number of TLB faults due to domain restrictions
+system.cpu1.itb.perms_faults                        0                       # Number of TLB faults due to permissions restrictions
+system.cpu1.itb.read_accesses                       0                       # DTB read accesses
+system.cpu1.itb.write_accesses                      0                       # DTB write accesses
+system.cpu1.itb.inst_accesses                       0                       # ITB inst accesses
+system.cpu1.itb.hits                                0                       # DTB hits
+system.cpu1.itb.misses                              0                       # DTB misses
+system.cpu1.itb.accesses                            0                       # DTB accesses
+system.cpu1.numCycles                         4866159                       # number of cpu cycles simulated
+system.cpu1.numWorkItemsStarted                     0                       # number of work items this cpu started
+system.cpu1.numWorkItemsCompleted                   0                       # number of work items this cpu completed
+system.cpu1.committedInsts                    3510961                       # Number of instructions committed
+system.cpu1.committedOps                      4788749                       # Number of ops (including micro ops) committed
+system.cpu1.num_int_alu_accesses              4383474                       # Number of integer alu accesses
+system.cpu1.num_fp_alu_accesses                    16                       # Number of float alu accesses
+system.cpu1.num_func_calls                     435927                       # number of times a function call or return occured
+system.cpu1.num_conditional_control_insts       463585                       # number of instructions that are conditional controls
+system.cpu1.num_int_insts                     4383474                       # number of integer instructions
+system.cpu1.num_fp_insts                           16                       # number of float instructions
+system.cpu1.num_int_register_reads           20755151                       # number of times the integer registers were read
+system.cpu1.num_int_register_writes           4465338                       # number of times the integer registers were written
+system.cpu1.num_fp_register_reads                  16                       # number of times the floating registers were read
+system.cpu1.num_fp_register_writes                  0                       # number of times the floating registers were written
+system.cpu1.num_mem_refs                      1394308                       # number of memory refs
+system.cpu1.num_load_insts                     784040                       # Number of load instructions
+system.cpu1.num_store_insts                    610268                       # Number of store instructions
+system.cpu1.num_idle_cycles              48143.999980                       # Number of idle cycles
+system.cpu1.num_busy_cycles              4818015.000020                       # Number of busy cycles
+system.cpu1.not_idle_fraction                0.990106                       # Percentage of non-idle cycles
+system.cpu1.idle_fraction                    0.009894                       # Percentage of idle cycles
+system.cpu2.dtb.inst_hits                           0                       # ITB inst hits
+system.cpu2.dtb.inst_misses                         0                       # ITB inst misses
+system.cpu2.dtb.read_hits                           0                       # DTB read hits
+system.cpu2.dtb.read_misses                         0                       # DTB read misses
+system.cpu2.dtb.write_hits                          0                       # DTB write hits
+system.cpu2.dtb.write_misses                        0                       # DTB write misses
+system.cpu2.dtb.flush_tlb                           0                       # Number of times complete TLB was flushed
+system.cpu2.dtb.flush_tlb_mva                       0                       # Number of times TLB was flushed by MVA
+system.cpu2.dtb.flush_tlb_mva_asid                  0                       # Number of times TLB was flushed by MVA & ASID
+system.cpu2.dtb.flush_tlb_asid                      0                       # Number of times TLB was flushed by ASID
+system.cpu2.dtb.flush_entries                       0                       # Number of entries that have been flushed from TLB
+system.cpu2.dtb.align_faults                        0                       # Number of TLB faults due to alignment restrictions
+system.cpu2.dtb.prefetch_faults                     0                       # Number of TLB faults due to prefetch
+system.cpu2.dtb.domain_faults                       0                       # Number of TLB faults due to domain restrictions
+system.cpu2.dtb.perms_faults                        0                       # Number of TLB faults due to permissions restrictions
+system.cpu2.dtb.read_accesses                       0                       # DTB read accesses
+system.cpu2.dtb.write_accesses                      0                       # DTB write accesses
+system.cpu2.dtb.inst_accesses                       0                       # ITB inst accesses
+system.cpu2.dtb.hits                                0                       # DTB hits
+system.cpu2.dtb.misses                              0                       # DTB misses
+system.cpu2.dtb.accesses                            0                       # DTB accesses
+system.cpu2.itb.inst_hits                           0                       # ITB inst hits
+system.cpu2.itb.inst_misses                         0                       # ITB inst misses
+system.cpu2.itb.read_hits                           0                       # DTB read hits
+system.cpu2.itb.read_misses                         0                       # DTB read misses
+system.cpu2.itb.write_hits                          0                       # DTB write hits
+system.cpu2.itb.write_misses                        0                       # DTB write misses
+system.cpu2.itb.flush_tlb                           0                       # Number of times complete TLB was flushed
+system.cpu2.itb.flush_tlb_mva                       0                       # Number of times TLB was flushed by MVA
+system.cpu2.itb.flush_tlb_mva_asid                  0                       # Number of times TLB was flushed by MVA & ASID
+system.cpu2.itb.flush_tlb_asid                      0                       # Number of times TLB was flushed by ASID
+system.cpu2.itb.flush_entries                       0                       # Number of entries that have been flushed from TLB
+system.cpu2.itb.align_faults                        0                       # Number of TLB faults due to alignment restrictions
+system.cpu2.itb.prefetch_faults                     0                       # Number of TLB faults due to prefetch
+system.cpu2.itb.domain_faults                       0                       # Number of TLB faults due to domain restrictions
+system.cpu2.itb.perms_faults                        0                       # Number of TLB faults due to permissions restrictions
+system.cpu2.itb.read_accesses                       0                       # DTB read accesses
+system.cpu2.itb.write_accesses                      0                       # DTB write accesses
+system.cpu2.itb.inst_accesses                       0                       # ITB inst accesses
+system.cpu2.itb.hits                                0                       # DTB hits
+system.cpu2.itb.misses                              0                       # DTB misses
+system.cpu2.itb.accesses                            0                       # DTB accesses
+system.cpu2.numCycles                               0                       # number of cpu cycles simulated
+system.cpu2.numWorkItemsStarted                     0                       # number of work items this cpu started
+system.cpu2.numWorkItemsCompleted                   0                       # number of work items this cpu completed
+system.cpu2.committedInsts                          0                       # Number of instructions committed
+system.cpu2.committedOps                            0                       # Number of ops (including micro ops) committed
+system.cpu2.num_int_alu_accesses                    0                       # Number of integer alu accesses
+system.cpu2.num_fp_alu_accesses                     0                       # Number of float alu accesses
+system.cpu2.num_func_calls                          0                       # number of times a function call or return occured
+system.cpu2.num_conditional_control_insts            0                       # number of instructions that are conditional controls
+system.cpu2.num_int_insts                           0                       # number of integer instructions
+system.cpu2.num_fp_insts                            0                       # number of float instructions
+system.cpu2.num_int_register_reads                  0                       # number of times the integer registers were read
+system.cpu2.num_int_register_writes                 0                       # number of times the integer registers were written
+system.cpu2.num_fp_register_reads                   0                       # number of times the floating registers were read
+system.cpu2.num_fp_register_writes                  0                       # number of times the floating registers were written
+system.cpu2.num_mem_refs                            0                       # number of memory refs
+system.cpu2.num_load_insts                          0                       # Number of load instructions
+system.cpu2.num_store_insts                         0                       # Number of store instructions
+system.cpu2.num_idle_cycles                         0                       # Number of idle cycles
+system.cpu2.num_busy_cycles                         0                       # Number of busy cycles
+system.cpu2.not_idle_fraction                       0                       # Percentage of non-idle cycles
+system.cpu2.idle_fraction                           1                       # Percentage of idle cycles
+system.cpu3.dtb.inst_hits                           0                       # ITB inst hits
+system.cpu3.dtb.inst_misses                         0                       # ITB inst misses
+system.cpu3.dtb.read_hits                           0                       # DTB read hits
+system.cpu3.dtb.read_misses                         0                       # DTB read misses
+system.cpu3.dtb.write_hits                          0                       # DTB write hits
+system.cpu3.dtb.write_misses                        0                       # DTB write misses
+system.cpu3.dtb.flush_tlb                           0                       # Number of times complete TLB was flushed
+system.cpu3.dtb.flush_tlb_mva                       0                       # Number of times TLB was flushed by MVA
+system.cpu3.dtb.flush_tlb_mva_asid                  0                       # Number of times TLB was flushed by MVA & ASID
+system.cpu3.dtb.flush_tlb_asid                      0                       # Number of times TLB was flushed by ASID
+system.cpu3.dtb.flush_entries                       0                       # Number of entries that have been flushed from TLB
+system.cpu3.dtb.align_faults                        0                       # Number of TLB faults due to alignment restrictions
+system.cpu3.dtb.prefetch_faults                     0                       # Number of TLB faults due to prefetch
+system.cpu3.dtb.domain_faults                       0                       # Number of TLB faults due to domain restrictions
+system.cpu3.dtb.perms_faults                        0                       # Number of TLB faults due to permissions restrictions
+system.cpu3.dtb.read_accesses                       0                       # DTB read accesses
+system.cpu3.dtb.write_accesses                      0                       # DTB write accesses
+system.cpu3.dtb.inst_accesses                       0                       # ITB inst accesses
+system.cpu3.dtb.hits                                0                       # DTB hits
+system.cpu3.dtb.misses                              0                       # DTB misses
+system.cpu3.dtb.accesses                            0                       # DTB accesses
+system.cpu3.itb.inst_hits                           0                       # ITB inst hits
+system.cpu3.itb.inst_misses                         0                       # ITB inst misses
+system.cpu3.itb.read_hits                           0                       # DTB read hits
+system.cpu3.itb.read_misses                         0                       # DTB read misses
+system.cpu3.itb.write_hits                          0                       # DTB write hits
+system.cpu3.itb.write_misses                        0                       # DTB write misses
+system.cpu3.itb.flush_tlb                           0                       # Number of times complete TLB was flushed
+system.cpu3.itb.flush_tlb_mva                       0                       # Number of times TLB was flushed by MVA
+system.cpu3.itb.flush_tlb_mva_asid                  0                       # Number of times TLB was flushed by MVA & ASID
+system.cpu3.itb.flush_tlb_asid                      0                       # Number of times TLB was flushed by ASID
+system.cpu3.itb.flush_entries                       0                       # Number of entries that have been flushed from TLB
+system.cpu3.itb.align_faults                        0                       # Number of TLB faults due to alignment restrictions
+system.cpu3.itb.prefetch_faults                     0                       # Number of TLB faults due to prefetch
+system.cpu3.itb.domain_faults                       0                       # Number of TLB faults due to domain restrictions
+system.cpu3.itb.perms_faults                        0                       # Number of TLB faults due to permissions restrictions
+system.cpu3.itb.read_accesses                       0                       # DTB read accesses
+system.cpu3.itb.write_accesses                      0                       # DTB write accesses
+system.cpu3.itb.inst_accesses                       0                       # ITB inst accesses
+system.cpu3.itb.hits                                0                       # DTB hits
+system.cpu3.itb.misses                              0                       # DTB misses
+system.cpu3.itb.accesses                            0                       # DTB accesses
+system.cpu3.numCycles                               0                       # number of cpu cycles simulated
+system.cpu3.numWorkItemsStarted                     0                       # number of work items this cpu started
+system.cpu3.numWorkItemsCompleted                   0                       # number of work items this cpu completed
+system.cpu3.committedInsts                          0                       # Number of instructions committed
+system.cpu3.committedOps                            0                       # Number of ops (including micro ops) committed
+system.cpu3.num_int_alu_accesses                    0                       # Number of integer alu accesses
+system.cpu3.num_fp_alu_accesses                     0                       # Number of float alu accesses
+system.cpu3.num_func_calls                          0                       # number of times a function call or return occured
+system.cpu3.num_conditional_control_insts            0                       # number of instructions that are conditional controls
+system.cpu3.num_int_insts                           0                       # number of integer instructions
+system.cpu3.num_fp_insts                            0                       # number of float instructions
+system.cpu3.num_int_register_reads                  0                       # number of times the integer registers were read
+system.cpu3.num_int_register_writes                 0                       # number of times the integer registers were written
+system.cpu3.num_fp_register_reads                   0                       # number of times the floating registers were read
+system.cpu3.num_fp_register_writes                  0                       # number of times the floating registers were written
+system.cpu3.num_mem_refs                            0                       # number of memory refs
+system.cpu3.num_load_insts                          0                       # Number of load instructions
+system.cpu3.num_store_insts                         0                       # Number of store instructions
+system.cpu3.num_idle_cycles                         0                       # Number of idle cycles
+system.cpu3.num_busy_cycles                         0                       # Number of busy cycles
+system.cpu3.not_idle_fraction                       0                       # Percentage of non-idle cycles
+system.cpu3.idle_fraction                           1                       # Percentage of idle cycles
+system.cpu4.dtb.inst_hits                           0                       # ITB inst hits
+system.cpu4.dtb.inst_misses                         0                       # ITB inst misses
+system.cpu4.dtb.read_hits                           0                       # DTB read hits
+system.cpu4.dtb.read_misses                         0                       # DTB read misses
+system.cpu4.dtb.write_hits                          0                       # DTB write hits
+system.cpu4.dtb.write_misses                        0                       # DTB write misses
+system.cpu4.dtb.flush_tlb                           0                       # Number of times complete TLB was flushed
+system.cpu4.dtb.flush_tlb_mva                       0                       # Number of times TLB was flushed by MVA
+system.cpu4.dtb.flush_tlb_mva_asid                  0                       # Number of times TLB was flushed by MVA & ASID
+system.cpu4.dtb.flush_tlb_asid                      0                       # Number of times TLB was flushed by ASID
+system.cpu4.dtb.flush_entries                       0                       # Number of entries that have been flushed from TLB
+system.cpu4.dtb.align_faults                        0                       # Number of TLB faults due to alignment restrictions
+system.cpu4.dtb.prefetch_faults                     0                       # Number of TLB faults due to prefetch
+system.cpu4.dtb.domain_faults                       0                       # Number of TLB faults due to domain restrictions
+system.cpu4.dtb.perms_faults                        0                       # Number of TLB faults due to permissions restrictions
+system.cpu4.dtb.read_accesses                       0                       # DTB read accesses
+system.cpu4.dtb.write_accesses                      0                       # DTB write accesses
+system.cpu4.dtb.inst_accesses                       0                       # ITB inst accesses
+system.cpu4.dtb.hits                                0                       # DTB hits
+system.cpu4.dtb.misses                              0                       # DTB misses
+system.cpu4.dtb.accesses                            0                       # DTB accesses
+system.cpu4.itb.inst_hits                           0                       # ITB inst hits
+system.cpu4.itb.inst_misses                         0                       # ITB inst misses
+system.cpu4.itb.read_hits                           0                       # DTB read hits
+system.cpu4.itb.read_misses                         0                       # DTB read misses
+system.cpu4.itb.write_hits                          0                       # DTB write hits
+system.cpu4.itb.write_misses                        0                       # DTB write misses
+system.cpu4.itb.flush_tlb                           0                       # Number of times complete TLB was flushed
+system.cpu4.itb.flush_tlb_mva                       0                       # Number of times TLB was flushed by MVA
+system.cpu4.itb.flush_tlb_mva_asid                  0                       # Number of times TLB was flushed by MVA & ASID
+system.cpu4.itb.flush_tlb_asid                      0                       # Number of times TLB was flushed by ASID
+system.cpu4.itb.flush_entries                       0                       # Number of entries that have been flushed from TLB
+system.cpu4.itb.align_faults                        0                       # Number of TLB faults due to alignment restrictions
+system.cpu4.itb.prefetch_faults                     0                       # Number of TLB faults due to prefetch
+system.cpu4.itb.domain_faults                       0                       # Number of TLB faults due to domain restrictions
+system.cpu4.itb.perms_faults                        0                       # Number of TLB faults due to permissions restrictions
+system.cpu4.itb.read_accesses                       0                       # DTB read accesses
+system.cpu4.itb.write_accesses                      0                       # DTB write accesses
+system.cpu4.itb.inst_accesses                       0                       # ITB inst accesses
+system.cpu4.itb.hits                                0                       # DTB hits
+system.cpu4.itb.misses                              0                       # DTB misses
+system.cpu4.itb.accesses                            0                       # DTB accesses
+system.cpu4.numCycles                               0                       # number of cpu cycles simulated
+system.cpu4.numWorkItemsStarted                     0                       # number of work items this cpu started
+system.cpu4.numWorkItemsCompleted                   0                       # number of work items this cpu completed
+system.cpu4.committedInsts                          0                       # Number of instructions committed
+system.cpu4.committedOps                            0                       # Number of ops (including micro ops) committed
+system.cpu4.num_int_alu_accesses                    0                       # Number of integer alu accesses
+system.cpu4.num_fp_alu_accesses                     0                       # Number of float alu accesses
+system.cpu4.num_func_calls                          0                       # number of times a function call or return occured
+system.cpu4.num_conditional_control_insts            0                       # number of instructions that are conditional controls
+system.cpu4.num_int_insts                           0                       # number of integer instructions
+system.cpu4.num_fp_insts                            0                       # number of float instructions
+system.cpu4.num_int_register_reads                  0                       # number of times the integer registers were read
+system.cpu4.num_int_register_writes                 0                       # number of times the integer registers were written
+system.cpu4.num_fp_register_reads                   0                       # number of times the floating registers were read
+system.cpu4.num_fp_register_writes                  0                       # number of times the floating registers were written
+system.cpu4.num_mem_refs                            0                       # number of memory refs
+system.cpu4.num_load_insts                          0                       # Number of load instructions
+system.cpu4.num_store_insts                         0                       # Number of store instructions
+system.cpu4.num_idle_cycles                         0                       # Number of idle cycles
+system.cpu4.num_busy_cycles                         0                       # Number of busy cycles
+system.cpu4.not_idle_fraction                       0                       # Percentage of non-idle cycles
+system.cpu4.idle_fraction                           1                       # Percentage of idle cycles
+
+---------- End Simulation Statistics   ----------

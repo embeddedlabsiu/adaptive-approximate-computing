@@ -1,0 +1,14 @@
+#The descriptions are the same for the adder and subtractor, but different for the multiplier.
+#The adder and subtractor are as follows:
+#Approximated bits,approximate type (exact, LP C Lib, Low Power), LP C Library method ( 0 Approx, First Approx, etc).
+#The multiplier is as follows: Approximated bits, approximationType, add method, multiply method
+#adder:subtractor:multiply
+#TODO: FIX PE SIZE
+#For example, 8:4,0:16,-1:16,-1,1 would set PE 8 to the associated settings
+Total Number of CGRA_PE:36
+Default:8,2,0:8,-1,0:0,1,-1,-1
+0:8,2,0:8,-1,0:-1,-1,-1,-1
+1:8,2,0:8,-1,0:-1,-1,-1,-1
+2:8,2,0:8,-1,0:-1,-1,-1,-1
+3:16,2,3:8,-1,0:-1,-1,-1,-1
+11:8,2,0:8,-1,0:-1,-1,-1,-1

@@ -1,0 +1,5 @@
+#!/bin/bash
+cd RAMP/Release;
+make clean;
+make -j;
+cd ../../;

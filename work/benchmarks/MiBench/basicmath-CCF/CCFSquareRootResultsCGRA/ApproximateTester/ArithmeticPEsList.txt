@@ -1,0 +1,7 @@
+# First line is adders asdfasdfasdfasdf
+# Second line is multipliers
+# Third line is subtractors
+# ! means no such Arithmetic PEs
+0,3,4,5
+!
+2

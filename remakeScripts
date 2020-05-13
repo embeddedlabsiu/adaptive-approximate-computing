@@ -1,0 +1,62 @@
+#!/bin/bash
+# Sets up necessary code generation/simulation tools for CCF framework
+# Author: Shail Dave
+# Last Modified: 30 April, 2018
+
+newpath="$(pwd)" #Fetch the path of the top module (CCF)
+oldpath="\$HOME/shail/ccf"
+
+# =============================================================
+# Check the status of dependencies and install needed packages
+# $newpath/scripts/install_dependecies
+
+# =============================================================
+# For system linking, we use LLVM gold plugin interface
+# (http://llvm.org/docs/GoldPlugin.html)
+# You may also check out following page for the details of installation steps
+# (https://github.com/SVF-tools/SVF/wiki/Install-LLVM-Gold-Plugin-on-Ubuntu)
+
+# We have successfully tested our entire llvm setup on Ubuntu 14.04 and 16.04
+# However, it might be compatible as-is with other versions as well.
+
+
+# Replace ar, nm, ld and ranlib
+# sudo cp build/binutils/ar /usr/bin/
+#sudo rm /usr/bin/nm
+#sudo cp build/binutils/nm-new /usr/bin/nm
+#sudo cp build/binutils/ranlib /usr/bin/
+#sudo cp build/gold/ld-new /usr/bin/ld
+
+# Install LLVMgold.so to /usr/lib/bfd-plugins
+#cd /usr/lib/
+#sudo mkdir bfd-plugins
+#cd bfd-plugins
+#sudo cp $newpath/llvm/build/lib/LLVMgold.so ./
+#sudo cp $newpath/llvm/build/lib/libLTO.so ./
+
+# Export environment variables
+export RANLIB=/bin/true
+
+# =============================================================
+# Fix the paths
+sed -i "s|$oldpath|$newpath|g" $newpath/InstructionGenerator/insgen.cpp
+sed -i "s|$oldpath|$newpath|g" $newpath/scripts/map.sh
+sed -i "s|$oldpath|$newpath|g" $newpath/scripts/opt.sh
+sed -i "s|$oldpath|$newpath|g" $newpath/scripts/CGRALib/cgracc
+sed -i "s|$oldpath|$newpath|g" $newpath/scripts/CGRALib/run.sh
+
+# =============================================================
+# Copy compilation script
+sudo cp $newpath/scripts/CGRALib/cgracc /usr/bin
+sudo chmod +x /usr/bin/cgracc
+
+#=============================================================
+# Give access to all scripts
+chmod +x $newpath/scripts/*.sh
+
+#=============================================================
+
+
+
+
+

@@ -1,0 +1,17 @@
+#!/bin/bash
+
+CGRAInstruction="../../../../../InstructionGenerator/insgen"
+L2Directory="CGRAExec/L2"
+FinalNodeFile=$L2Directory/final_node.txt
+DumpEdge=$L2Directory/DUMP_edge.txt
+LLVMNode=$L2Directory/loop33_node.txt
+LLVMEdge=$L2Directory/loop33_edge.txt
+ObjectFile="basicmath_small"
+X="6"
+Y="6"
+R="4"
+LiveOutNode=$L2Directory/liveout_node.txt
+LiveOutEdge=$L2Directory/liveout_edge.txt
+
+$CGRAInstruction $FinalNodeFile $DumpEdge $LLVMNode $LLVMEdge $ObjectFile prolog.sch kernel.sch epilog.sch $X $Y $R $LiveOutNode $LiveOutEdge
+

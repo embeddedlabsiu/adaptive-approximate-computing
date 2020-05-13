@@ -1,0 +1,60 @@
+Getting started with CCF using CGRAs of varying size
+	1. go to scripts directory
+		a. changes to map.sh
+			line 7 | toolchain = (location where ccf is installed)
+			
+		b. changes to opt.sh
+			line 8 | toolchain = (location where ccf is installed)
+			
+	2. go to scripts/CGRALib directory
+		a. changes to cgra.c
+			line 69 | change 16 to x dimension * y dimension
+			line 70 | ""
+			line 71 | ""
+			alternatively, add "#define CGRA_Size XXX" for simplicity
+			
+		b. changes to cgracc
+			line 8 | toolchain = (location where ccf is installed)
+			
+		c. changes to run.sh
+			line 15 | X = (desired CGRA X dimension)
+			line 16 | Y = (desired CGRA Y dimension)
+			line 23 | toolchain = (location where ccf is installed)
+			Don't try changing the size of R. It's hardcoded all over Gem5
+			
+	3. go to InstructionGenerator directory
+		a. changes to CGRAdefinitions.h
+			line 18 | CGRA_XDim (desired CGRA X dimension)
+			line 19 | CGRA_YDim (desired CGRA Y dimension)
+			
+	4. go to gem5/src/cpu/atomiccgra directory
+		a. changes to CGRAdefinitions.h
+			line 24 | CGRA_XDim (desired CGRA X dimension)
+			line 25 | CGRA_YDim (desired CGRA Y dimension)
+			
+	5. go to gem5/src/cpu/timingcgra directory
+		a. changes to CGRAdefinitions.h
+			line 17 | CGRA_XDim (desired CGRA X dimension)
+			line 18 | CGRA_YDim (desired CGRA Y dimension)
+			
+	6. go to home ccf directory
+		a. changes to install
+			comment out lines 11, 75, 76
+			
+	7. go to work/benchmarks/MiBench/basicmath-CCF/basicmath13
+		a. changes to Makefile
+			line 7 | change to "CC = ../../../../../scripts/CGRALib/cgracc"
+			make this change for all Makefiles
+			
+		b. changes to runme_small.sh
+			line 4 | change to the correct location of gem5 for gem5.opt and se_hetero.py
+			make this change for all run scripts
+		
+		c. changes to basicmath_small.c
+			comment out lines 21 though 57
+			comment out lines 77 though 81
+			line 61 | change 1001 to 101
+			These changes are optional but make the program run faster
+			
+		
+			

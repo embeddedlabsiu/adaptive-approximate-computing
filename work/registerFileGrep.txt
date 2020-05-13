@@ -1,0 +1,3 @@
+Binary file /home/lincoln/ccf3/ccf/gem5/build/ARM/gem5.opt matches
+Binary file /home/lincoln/ccf3/ccf/gem5/build/ARM/cpu/atomiccgra/CGRARegisterFile.o matches
+Binary file /home/lincoln/ccf3/ccf/gem5/build/ARM/cpu/atomiccgra/CGRAPE.o matches

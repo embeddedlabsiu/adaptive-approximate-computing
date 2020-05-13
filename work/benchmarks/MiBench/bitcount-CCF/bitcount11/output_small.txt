@@ -1,0 +1,424 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Oct 24 2018 12:52:13
+gem5 started Jan 28 2019 11:49:33
+gem5 executing on engee-e121-d08
+command line: /home/lincoln/ccf3/ccf/gem5/build/ARM/gem5.opt --debug-flags=CGRA,CGRA_Detailed /home/lincoln/ccf3/ccf/gem5/configs/example/se_hetro.py -n 5 --cpu-type atomic -c ./bitcnts --options=750
+-|- THIS IS STUFF ADDED BY LINCOLN -|-
+np =  5
+len(tempCPU) =  5
+-|- NO LONGER STUFF ADDED BY LINCOLN -|-
+Global frequency set at 1000000000000 ticks per second
+      0: system.cpu4: Setting Up CGRA
+      0: system.cpu4: CGRA instantiated
+
+MASTER system_port binds to SLAVE system.membus.slave[0]
+
+MASTER system.membus.master[0] binds to SLAVE system.mem_ctrls.port
+
+MASTER system.cpu0.icache_port binds to SLAVE system.membus.slave[1]
+
+MASTER system.cpu0.dcache_port binds to SLAVE system.membus.slave[2]
+
+MASTER system.cpu0.dtb.walker.dma binds to SLAVE system.membus.slave[4]
+
+MASTER system.cpu0.itb.walker.dma binds to SLAVE system.membus.slave[3]
+
+MASTER system.cpu1.icache_port binds to SLAVE system.membus.slave[5]
+
+MASTER system.cpu1.dcache_port binds to SLAVE system.membus.slave[6]
+
+MASTER system.cpu1.dtb.walker.dma binds to SLAVE system.membus.slave[8]
+
+MASTER system.cpu1.itb.walker.dma binds to SLAVE system.membus.slave[7]
+
+MASTER system.cpu2.icache_port binds to SLAVE system.membus.slave[9]
+
+MASTER system.cpu2.dcache_port binds to SLAVE system.membus.slave[10]
+
+MASTER system.cpu2.dtb.walker.dma binds to SLAVE system.membus.slave[12]
+
+MASTER system.cpu2.itb.walker.dma binds to SLAVE system.membus.slave[11]
+
+MASTER system.cpu3.icache_port binds to SLAVE system.membus.slave[13]
+
+MASTER system.cpu3.dcache_port binds to SLAVE system.membus.slave[14]
+
+MASTER system.cpu3.dtb.walker.dma binds to SLAVE system.membus.slave[16]
+
+MASTER system.cpu3.itb.walker.dma binds to SLAVE system.membus.slave[15]
+
+MASTER system.cpu4.icache_portdcache_port binds to SLAVE system.membus.slave[17]
+
+MASTER system.cpu4.dcache_portdcache_port binds to SLAVE system.membus.slave[18]
+
+MASTER system.cpu4.dtb.walker.dma binds to SLAVE system.membus.slave[20]
+
+MASTER system.cpu4.itb.walker.dma binds to SLAVE system.membus.slave[19]
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+
+**********EPISIZE 600*********
+
+**********PROSIZE 1200*********
+
+**********KERNSIZE 200*********
+
+******SIZE OF UNISGNED INT 4*****
+Loop Count: -3
+From FILE: PROLOGPC= 9c620, EPILOGPC=9bcb8,  KernelPC=9d8e8
+Main thread calling CGRA thread...
+Bit counter algorithm benchmark
+
+Optimized 1 bit/loop counter          > Time:   0.000 sec.; Bits: 12547
+Ratko's mystery algorithm             > Time: -1753.295 sec.; Bits: 12295
+Recursive bit count by nybbles        > Time: -1752.295 sec.; Bits: 11573
+Non-recursive bit count by nybbles    > Time: 1007.354 sec.; Bits: 11887
+Non-recursive bit count by bytes (BW) > Time: 1005.672 sec.; Bits: 12236
+Non-recursive bit count by bytes (AR) > Time: 1005.672 sec.; Bits: 10755
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Core will execute loop 1 on CGRA
+Exiting @ tick 2433079500 because user interrupt received
