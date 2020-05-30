@@ -1,4 +1,4 @@
-# **Approximate Computing**
+# **Adaptive Approximate Computing on CGRAs**
 
 ## **Disclaimer**
 The code in this repository has been based on the CCF (CGRA Compilation Framework) project, found [here](https://github.com/MPSLab-ASU/ccf). Please follow that link for a complete installation guide.
@@ -7,6 +7,9 @@ The code in this repository has been based on the CCF (CGRA Compilation Framewor
 For all documentation of CCF, see CCF_README.md and CCF Manual.pdf.
 
 ## **Approximate Computing**
+
+The utilized approximate multipliers and adders used in this project are from [lpACLib](https://ces.itec.kit.edu/lpACLib.php)
+
 1. **Basic Overview:** All of the files for Approximate Computing are located in the folder ApproximateComputing, located at the root directory of the folder. Under this folder, there are subfolders that represent the location in CCF where the contained files implement functionality. The files in each subfolder are then soft linked to the corresponding location in the CCF project. Additionally, under each subfolder, there is a README.txt file that describe where each file is located in the CCF project. 
 2. **Approximate Computing Folder Guide:**
 	* **DynamicRuntimeCGRAControl Folder:** This folder contains the files necessary to dynamically control the CGRA during runtime. 
@@ -75,11 +78,11 @@ If you use the code of this repository in your work, please use the following re
 
 ```bibtex
 @INPROCEEDINGS{
-    author={J. {Dickerson} and I. {Galanis} and ZG. {Tasoulas} and L. {Kinley} and I. {Anagnostopoulos}},
-    title={Adaptive Approximate Computing on Hardware Accelerators targeting IoT applications},
-    year={2020},
-    volume={},
-    number={},
+  title={Adaptive Approximate Computing on Hardware Accelerators targeting IoT applications},
+  author={Dickerson, Jonathan and Galanis, Ioannis and Tasoulas, Zois Gerasimos and Anagnostopoulos, Iraklis},
+  booktitle={2020 IEEE World Forum on Internet of Things (WF-IoT)},
+  year={2020},
+  organization={IEEE}
 }
 ```
 
@@ -89,4 +92,5 @@ We would like to thank the following contributors for their help:
 - [Ioannis Galanis](mailto:ioannis.galanis@siu.edu)
 - [Zois Gerasimos Tasoulas](mailto:zoisgerasimos.tasoulas@siu.edu)
 - [Lincoln Kinley](mailto:lincoln.kinley@siu.edu)
+- [Iraklis Anagnostopoulos](mailto:iraklis.anagno@siu.edu)
 
